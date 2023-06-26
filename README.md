@@ -1,6 +1,6 @@
 # NoSQL-challenge
 
-##Part 1
+## Part 1
 In this challenge I imported the data provided in the establishments.json file from my Terminal. Then named the database uk_food and the collection establishments. 
 Within your notebook, import the libraries you need: PyMongo and Pretty Print (pprint).
 
@@ -14,7 +14,7 @@ Find and display one document in the establishments collection using find_one an
 Assign the establishments collection to a variable to prepare the collection for use.
 I utilized https://www.mongodb.com/docs/ for syntex troubleshooting.
 
-##Part 2
+## Part 2
 The magazine editors have some requested modifications for the database before you can perform any queries or analysis for them. Make the following changes to the establishments collection:
 
 An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis.
@@ -29,7 +29,7 @@ Some of the number values are stored as strings, when they should be stored as n
 Use update_many to convert latitude and longitude to decimal numbers.
 Use update_many to convert RatingValue to integer numbers.
 
-##Part 3
+## Part 3
 Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
 
 Use NoSQL_analysis_starter.ipynb for this section of the challenge.
